@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans CJK KR';
+	font-style: normal;
+}
+
+.formBox {
+	width: 670px;
+	height: 960px;
+	background: #ffffff;
+	border: 1px solid #aacdff;
+	box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+	border-radius: 20px;
+	padding: 72px 100px 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 47px;
+	color: #0068ff;
+}
+.group1 input {
+	width: 466px;
+	height: 80px;
+	border: 1px solid #0068ff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.genderBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.genderBox .pb {
+	width: 140px;
+	height: 23.94px;
+}
+
+.policyBox {
+	display: flex;
+	align-items: center;
+}
+
+.policyBox input {
+	margin: 0;
+	width: 20px;
+	height: 20px;
+	background: #ffffff;
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+}
+
+.policy {
+	margin-left: 15px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+hr {
+	width: 470px;
+	height: 1px;
+	background: #e6e6e6;
+}
+
+button {
+	width: 470px;
+	height: 75px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	/* identical to box height */
+	text-align: center;
+	color: #0068ff;
+	background: #ffffff;
+	border: 1px solid #0068ff;
+	border-radius: 10px;
+}
