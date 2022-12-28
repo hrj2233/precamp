@@ -49,10 +49,6 @@ h3 {
 	margin-top: 20px;
 }
 
-.inputbox::marker {
-	border: 1px solid #0068ff;
-}
-
 .inputbox::placeholder {
 	color: #797979;
 	font-size: 16px;
